@@ -6,8 +6,8 @@ def draw_indian_flag():
     fig, ax = plt.subplots(figsize=(8, 5))
 
     # Define the colors
-    colors = ['#FF9933', '#FFFFFF', '#138808']
-
+    colors = ['#138808', '#FFFFFF', '#FF9933']
+    
     # Draw the rectangles (stripes)
     for i, color in enumerate(colors):
         rect = patches.Rectangle((0, i * 1/3), 1, 1/3, linewidth=0, edgecolor='none', facecolor=color)
