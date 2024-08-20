@@ -6,7 +6,7 @@ from PIL import Image
 def draw_indian_flag(angle):
     fig,ax = plt.subplots(figsize=(8,5)) #8*5 inches
     #define color
-    colors = ['#FF9933', '#FFFFFF', '#138808']
+     colors = ['#138808', '#FFFFFF', '#FF9933']
 
     #draw the reacangles (stripes)
 
